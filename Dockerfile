@@ -3,7 +3,7 @@
 # SPDX-FileContributor: domagoj03
 #
 # SPDX-License-Identifier: AGPL-3.0-only
-ARG NODE_VERSION=22.20.0
+ARG NODE_VERSION=24.11.1
 ARG OS=alpine
 
 FROM node:${NODE_VERSION}-${OS}
